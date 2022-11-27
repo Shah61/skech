@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Skechers</title>
+    <style>
+        body {
+            background-color: black;
+            color: #fff;
+        }
+
+
+        .test {
+            height: 100vh;
+            background-image: linear-gradient(90deg, rgba(126, 122, 122, 0.362), rgba(200, 188, 188, 0));
+        }
+
+
+        .textbox {
+            font-family: 'poppins', sans-serif;
+            color: #fff;
+            position: absolute;
+            bottom: 8%;
+        }
+
+        .textbox p {
+            font-size: 50px;
+            font-weight: 600;
+        }
+
+        .textbox h1 {
+            font-size: 190px;
+            line-height: 160px;
+            margin-left: -10px;
+            color: transparent;
+            -webkit-text-stroke: 1px #fff;
+            background: url(images/front.png);
+            -webkit-background-clip: text;
+            background-position: 0 0;
+            animation: back 20s linear infinite;
+        }
+
+        @keyframes back {
+            100% {
+                background-position: 2000px 0;
+
+            }
+        }
+
+        .textbox h2 {
+            font-size: 40px;
+            font-weight: 500;
+        }
+    </style>
+    <link rel="stylesheet" href="skechers.css">
+
+
+</head>
+
+
+<body>
+    <header class="test">
+
+        <div class="textbox">
+            <p>I'M</p>
+            <h1>SKECHERS</h1>
+            <h2>I MAKE GOOD SHOES </h2>
+        </div>
+    </header>
+
+</body>
